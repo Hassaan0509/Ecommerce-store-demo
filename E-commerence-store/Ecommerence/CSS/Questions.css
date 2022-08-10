@@ -1,0 +1,12 @@
+.para1 {
+  width: 40%;
+  height: 25px;
+  text-align: center;
+}
+
+.height-of-div {
+  height: 450px;
+  overflow: auto;
+  width: 100%;
+}
+

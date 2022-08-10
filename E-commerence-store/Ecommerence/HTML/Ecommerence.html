@@ -1,0 +1,2066 @@
+<!-- Completed -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerence demo</title>
+    <link rel="stylesheet" href="/CSS/Ecommerence.css">
+    <script src="https://kit.fontawesome.com/a3f29d5b81.js"
+      crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous">
+  </head>
+
+  <body id="body">
+
+    <nav class="navbar navbar-expand-lg bg-light sticky-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="headingStyle">Company Name</a>
+        <div class="collapse navbar-collapse row justify-content-around"
+          id="navbarSupportedContent">
+          
+          
+          <form action="/HTML/search.html" class="col-md-6 d-flex mx-5"
+            role="search">
+            <div class="input-group w-100">
+              <div class="form-outline w-75">
+                <input type="search" id="form1" class="form-control"
+                  placeholder="Search Products" required />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+
+          </form>
+
+          <div class="col-md-4">
+            <ul class="navbar-nav me-auto mx-4" id="linkStyle">
+              <li class="nav-item">
+                <a class="nav-link mx-2" aria-current="page"
+                  href="/HTML/contactUs.html">
+                  <div class="text-center fs-6">
+                    <i class="fa-solid fa-envelope fs-4"></i>
+                    <br>
+                    Contact us
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="/HTML/sell.html">
+                  <div class="text-center fs-6">
+                    <i class="fa-solid fa-wallet fs-4"></i>
+                    <br>
+                    Sell with us
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" id="account">
+                  <div class="text-center fs-6" id="accDropDown">
+                    <i class="fa-solid fa-user fs-4"></i>
+                    <br>
+                    Account
+                  </div>
+                </a>
+                <ul class="dropdown-menu d-none" id="DropDown">
+                  <li>
+                    <a class="dropdown-item" href="#" id="profile">My profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" id="orders">My orders</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/HTML/Questions.html">Question
+                      and Answers</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li class="text-center">
+                    New one
+                    <a class="dropdown-item" id="signup">Sign up</a>
+                    <div class="d-grid gap-2">
+                      <button type="button" class="btn btn-primary
+                        m-2" id="login">
+                        log in
+                      </button>
+                    </div>
+
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" id="cart">
+                  <div class="text-center fs-6">
+                    <i class="fa-solid
+                      fa-cart-arrow-down fs-4"></i>
+                    <br>
+                    Cart
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <ul class="nav justify-content-center" id="secondnav">
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="btn btn-link dropdown-toggle" href="#" role="button"
+            id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="btn btn-link dropdown-toggle" href="#" role="button"
+            id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="btn btn-link dropdown-toggle" href="#" role="button"
+            id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="btn btn-link dropdown-toggle" href="#" role="button"
+            id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="btn btn-link dropdown-toggle" href="#" role="button"
+            id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/HTML/singleProductPage.html">###</a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Cart page -->
+    <div class="position-fixed position-absolute w-75 d-none rounded-4 element
+      index" id="myCart">
+      <div class="row">
+        <div class="col-md-12 bg-white rounded-4">
+
+          <div class="row mt-4 mx-2 justify-content-between">
+            <div class="col-md-10 fs-4 fw-semibold">
+              <p class="m-0">
+                Shopping Cart
+              </p>
+            </div>
+
+            <div class="col-md-1 mt-1">
+              <a class="CloseCartBt" id="cartBtn">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row cartHead w-100">
+            <div class="col-xs-12 col-sm-4 col-md-6">Item</div>
+            <div class="col-xs-12 col-sm-1 col-md-2">Quantity</div>
+            <div class="col-xs-12 col-sm-2 col-md-2">Price</div>
+            <div class="col-xs-12 col-sm-2 col-md-2">Sub
+              Total</div>
+          </div>
+
+          <div class="cartBody w-100">
+            <div class="row w-100 justify-content-around">
+              <!-- When cart is empty -->
+
+              <!-- <div class="col-md-5 mt-4">
+                  <div class="w-100 m-auto">
+                    <img class="w-50 m-auto"
+                      src="https://static.oxinis.com/healthmug/image/healthmug/cart.jpg"
+                      alt="Image not found">
+                  </div>
+                </div>
+
+                <div class="col-md-4 mt-5 text-center">
+                  <h2 class="text-secondary mb-2">
+                    Your Cart is Empty
+                  </h2>
+                  <h3 class="text-success mb-2">
+                    Add Some Stuff!
+                  </h3>
+                  <button type="button" class="btn btn-success">Continue
+                    Shopping</button>
+                </div> -->
+              <!-- When some item added in cart -->
+              <div class="col-xs-12 col-sm-4 col-md-6 mt-2 cartItemCol
+                fw-light">
+                <a href="#"><img
+                    src="https://static.oxinis.com/healthmug/image/product/12291-2-80.webp"
+                    alt="Image not found"></a>
+                Bios Lab Heightex Tablet (25g)
+              </div>
+              <div class="col-xs-12 col-sm-1 col-md-2 mt-3">
+                <input class="w-25" type="number" name="1" value="1">
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2 mt-3">
+                <i class="fa-solid
+                  fa-sterling-sign"></i>110
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2 mt-3">
+                <i class="fa-solid fa-sterling-sign"></i>110
+                <a class="removeCartBt">
+                  <i class="fa-solid fa-xmark"></i>
+                </a>
+              </div>
+              <hr>
+            </div>
+          </div>
+
+          <div class="row justify-content-between pt-3 rounded-4"
+            id="cart-bill-area">
+            <div class="col-md-6 mt-2 px-2">
+              <p class="fw-light">
+                <i class="fa-solid fa-wallet"></i>
+                <strong>
+                  Safe Buy:
+                </strong>
+                100% Money Back Guarantee
+              </p>
+
+              <p class="fw-light">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <strong>
+                  Live Easy:
+                </strong>
+                15 Days Easy Return Policy
+              </p>
+
+              <p class="fw-light">
+                <i class="fa-solid fa-award"></i>
+                <strong>
+                  Top Notch:
+                </strong>
+                Genuine Products Guarantee
+              </p>
+            </div>
+
+
+            <!-- When some item added to cart -->
+            <div class="col-md-3 row fw-semibold">
+              <div class="col-md-8">
+                <p>
+                  Total
+                </p>
+                <br>
+                <p>
+                  Delivery fee
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p>
+                  <i class="fa-solid
+                    fa-sterling-sign"></i> 110
+                </p>
+                <br>
+                <p>
+                  <i class="fa-solid
+                    fa-sterling-sign"></i> 40
+                </p>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-8">
+                  <p>
+                    Sub total
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <p>
+                    <i class="fa-solid
+                      fa-sterling-sign"></i> 150
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-4">
+              <button id="continue" class="btn btn-outline-success me-md-2"
+                type="button">Continue
+                Shopping</button>
+              <button class="btn btn-outline-primary
+                me-md-2" type="button">Place
+                Order</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Order page -->
+    <div class="position-fixed w-75
+      index d-none rounded-4 element" id="myOrders">
+      <div class="row">
+        <div class="col-md-12 bg-white rounded-4">
+
+          <div class="row mt-4 mx-2 justify-content-between">
+            <div class="col-md-10 fs-4 fw-semibold">
+              <p class="m-0">
+                My orders
+              </p>
+            </div>
+
+            <div class="col-md-1 mt-1">
+              <a class="CloseCartBt" id="ordersBtn">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+          </div>
+          <hr>
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a id="delivered" class="nav-link mx-4 text-black fw-semibold"
+                aria-current="page" href="#">Delivered</a>
+            </li>
+            <li class="nav-item">
+              <a id="pending" class="nav-link mx-4 text-black fw-semibold"
+                href="#">Pending</a>
+            </li>
+            <li class="nav-item">
+              <a id="canceled" class="nav-link mx-4 text-black fw-semibold"
+                href="#">Canceled</a>
+            </li>
+          </ul>
+
+          <div class="row cartHead w-100 justify-content-between">
+            <div class="col-xs-12 col-sm-4 col-md-4">Item</div>
+            <div class="col-xs-12 col-sm-1 col-md-2">Quantity</div>
+            <div class="col-xs-12 col-sm-2 col-md-2">Price</div>
+            <div class="col-xs-12 col-sm-2 col-md-2">Sub
+              Total</div>
+          </div>
+          <div class="cartBody w-100">
+            <div class="row w-100 justify-content-between">
+
+              <!-- When no order is placed -->
+              <!-- <div class="col-md-5 mt-4">
+                  <div class="w-100 m-auto">
+                    <img class="w-50 m-auto"
+                      src="https://static.oxinis.com/healthmug/image/healthmug/cart.jpg"
+                      alt="Image not found">
+                  </div>
+                </div>
+
+                <div class="col-md-4 mt-5 text-center">
+                  <h2 class="text-secondary mb-2">
+                    No orders till yet
+                  </h2>
+                  <h3 class="text-success mb-2">
+                    Place your first order
+                  </h3>
+                  <button type="button" class="btn btn-success">Continue
+                    Shopping</button>
+                </div> -->
+              <!-- When some order is placed -->
+              <div class="col-xs-12 col-sm-4 col-md-4 mt-2 cartItemCol
+                fw-light">
+                <a href="#"><img
+                    src="https://static.oxinis.com/healthmug/image/product/12291-2-80.webp"
+                    alt="Image not found"></a>
+                Bios Lab Heightex Tablet (25g)
+              </div>
+              <div class="col-xs-12 col-sm-1 col-md-2 mt-3">
+                <p class="w-25">1</p>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2 mt-3">
+                <i class="fa-solid
+                  fa-sterling-sign"></i>110
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2 mt-3">
+                <i class="fa-solid fa-sterling-sign"></i>110
+
+              </div>
+              <hr>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- My profile -->
+    <div class="position-fixed w-50
+      index1 d-none rounded-4 element" id="myProfile">
+      <div class="row">
+        <div class="col-md-12 bg-white rounded-3">
+
+          <div class="row mt-4 mx-2 justify-content-between">
+            <div class="col-md-10 fs-4 fw-semibold">
+              <p class="m-0">
+                My Profile
+              </p>
+            </div>
+
+            <div class="col-md-1 mt-1">
+              <a class="CloseCartBt" id="profileBtn">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="row justify-content-center mb-2">
+            <div class="col-md-5">
+              <strong>Name</strong>
+              <p>First name+Last name</p>
+            </div>
+
+            <div class="col-md-5">
+              <strong>Email</strong>
+              <p>Name@example.com</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center mb-2">
+            <div class="col-md-5">
+              <strong>Address</strong>
+              <p>Addess here</p>
+            </div>
+
+            <div class="col-md-5">
+              <strong>Phone</strong>
+              <p>Number here</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-5">
+              <strong>City</strong>
+              <p>City here</p>
+            </div>
+
+            <div class="col-md-5">
+              <strong>Country</strong>
+              <p>Country here</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Login page -->
+    <div class="position-fixed w-50
+      index1 d-none rounded-4 element" id="loginPage">
+      <div class="row">
+        <div class="col-md-12 bg-white rounded-4">
+
+          <div class="row justify-content-around">
+            <div class="col-md-10">
+              <h4 class="pt-3 px-4 fw-bold fst-italic fs-1">Log In</h4>
+            </div>
+            <div class="col-md-1 mt-4">
+              <a class="CloseCartBt" id="loginBtn">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Default form login -->
+          <form class="text-center border border-light p-5" action="#!">
+
+            <!-- Email -->
+            <input type="email" id="defaultLoginFormEmail" class="form-control
+              mb-4" placeholder="E-mail" required>
+
+            <!-- Password -->
+            <input type="password" id="defaultLoginFormPassword"
+              class="form-control mb-4" placeholder="Password"
+              required>
+
+            <div class="d-flex justify-content-around">
+              <div>
+                <!-- Remember me -->
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input"
+                    id="defaultLoginFormRemember">
+                  <label class="custom-control-label"
+                    for="defaultLoginFormRemember">Remember me</label>
+                </div>
+              </div>
+              <div>
+                <!-- Forgot password -->
+                <a href="">Forgot password?</a>
+              </div>
+            </div>
+
+            <!-- Sign in button -->
+            <div class="d-grid gap-2">
+              <button class="btn btn-info btn-block my-4" type="submit">Sign
+                in</button>
+            </div>
+
+            <!-- Register -->
+            <p>Not a member?
+              <a href="">Register</a>
+            </p>
+
+            <!-- Social login -->
+            <p>or sign in with:</p>
+
+            <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f
+                light-blue-text"></i></a>
+            <a href="#" class="mx-2" role="button"><i class="fab fa-google
+                light-blue-text"></i></a>
+
+          </form>
+          <!-- Default form login -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup page -->
+    <div class="position-fixed w-50
+      index1 d-none rounded-4 element" id="signupPage">
+      <div class="row">
+        <div class="col-md-12 rounded-4" style="background-color: #94F6EC;">
+          <div class="row justify-content-around">
+            <div class="col-md-10">
+              <h4 class="pt-3 px-4 fw-bold fst-italic fs-1">Sign up</h4>
+            </div>
+            <div class="col-md-1 mt-4">
+              <a class="CloseCartBt" id="signupBtn">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+          </div>
+          <hr>
+          <div class="row justify-content-center">
+            <div class="col-md-12 mt-4 w-75">
+              <form>
+                <div class="input-group mb-2">
+                  <span class="input-group-text">First and last name</span>
+                  <input type="text" aria-label="First name"
+                    class="form-control" required>
+                  <input type="text" aria-label="Last name" class="form-control"
+                    required>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text">Country/State/City</span>
+                  <input type="text" aria-label="City" class="form-control"
+                    required>
+                  <input type="text" aria-label="State" class="form-control"
+                    required>
+                  <input type="text" aria-label="Country" class="form-control"
+                    required>
+                </div>
+
+                <div class="row">
+                  <div class="form-floating col-md-6 mb-2">
+                    <input type="text" class="form-control" id="floatingNumber"
+                      placeholder="XXXX-XXXXXXX" required>
+                    <label class="px-4" for="floatingNumber">Phone Number</label>
+                  </div>
+
+                  <div class="form-floating col-md-6 mb-2">
+                    <input type="email" class="form-control" id="floatingInput"
+                      placeholder="name@example.com" required>
+                    <label class="px-4" for="floatingInput">Email address</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 form-floating mb-2">
+                    <input type="password" class="form-control"
+                      id="floatingPassword" placeholder="Password" required>
+                    <label class="px-4" for="floatingPassword">Password</label>
+                  </div>
+
+                  <div class="col-md-6 form-floating mb-2">
+                    <input type="password" class="form-control"
+                      id="floatingConfirmPassword" placeholder="Password"
+                      required>
+                    <label class="px-4" for="floatingConfirmPassword">Confirm
+                      Password</label>
+                  </div>
+                </div>
+
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value=""
+                    id="form2Example3cg" />
+                  <label class="form-check-label" for="form2Example3g">
+                    I agree all statements in <a href="/HTML/termOfUse.html"
+                      class="text-body"><u>Terms
+                        of service</u></a>
+                  </label>
+                </div>
+
+                <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-info">Register</button>
+                </div>
+
+                <p class="text-center text-muted mt-4 mb-4">Have already an
+                  account? <a href="#" class="fw-bold text-body" id="loginHere"><u>Login
+                      here</u></a></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-1 row">
+      <div class="col-md-10 bg-light p-1 pb-5">
+        <div id="carouselExampleCaptions" class="carousel slide"
+          data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://static.oxinis.com/healthmug/image/asset/454-un.png"
+                class="d-block" alt="Image not found">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.oxinis.com/healthmug/image/asset/354-wn.jpg"
+                class="d-block" alt="Image not found">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.oxinis.com/healthmug/image/asset/528-po.png"
+                class="d-block" alt="Image not found">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-2 bg-light">
+        <div id="starting-img-container">
+          <img src="https://static.oxinis.com/healthmug/image/asset/595-dj.webp"
+            alt="No image found" id="starting-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid m-4 bg-light rounded-4" id="top-categeries">
+      <h4>Top categeries</h4>
+      <div class="d-flex" id="flex">
+        <div class="top-categories-contianer mx-5">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/10000.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Deals</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/0.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Consult</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/213.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Allopathy</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/1.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Homeopathy</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/9.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Ayurveda</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/163.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Unani</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/122.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Nutrition and Supplements</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/82.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Beauty and Personal Consult</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/41.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Health Aid and fitness</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/20.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Baby care</p>
+          </a>
+        </div>
+        <div class="top-categories-contianer mx-4">
+          <a href="/HTML/Categories-sub-page.html" class="top-categories-link">
+            <img class="top-categories-img"
+              src="https://static.oxinis.com/healthmug/image/category/38.png"
+              alt="Image not found">
+            <p class="top-categories-link-para">Sexual welllness</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light m-4 d-flex rounded-4" id="part2">
+      <div class="part2-div m-1">
+        <img id="part2-img"
+          src="https://static.oxinis.com/healthmug/image/asset/167-um.png"
+          alt="Image not found">
+      </div>
+      <div class="part2-div m-1">
+        <img id="part2-img"
+          src="https://static.oxinis.com/healthmug/image/asset/391-ke.png"
+          alt="Image not found">
+      </div>
+      <div class="part2-div m-1">
+        <img id="part2-img"
+          src="https://static.oxinis.com/healthmug/image/asset/526-kn.jpg"
+          alt="Image not found">
+      </div>
+
+    </div>
+
+    <div class="container-fluid bg-light m-4 rounded-4" id="health-concern">
+      <h4 class="pt-2">Shop by health Concern</h4>
+      <div class="d-flex py-3 pb-3" id="health-concern-container">
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/9-icon.png"
+              alt="Image not found">
+            Arthritis & Rheumatism
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/34-icon.png"
+              alt="Image not found">
+            Diabetes
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/49-icon.png"
+              alt="Image not found">
+            Hair fall
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/72-icon.png"
+              alt="Image not found">
+            Low height
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/51-icon.png"
+              alt="Image not found">
+            Headache and migraine
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/79-icon.png"
+              alt="Image not found">
+            Obesity
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/93-icon.png"
+              alt="Image not found">
+            Snoring
+          </a>
+        </div>
+        <div class="health-concern-div">
+          <a href="/HTML/health.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/disease/83-icon.png"
+              alt="Image not found">
+            Piles and Fissures
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light m-4 rounded-4" id="top-brands">
+      <h4 class="pt-2">Shop by Top brands</h4>
+      <div class="d-flex py-3 pb-3" id="top-brands-container">
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img src="https://static.oxinis.com/healthmug/image/brand/1-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img src="https://static.oxinis.com/healthmug/image/brand/3-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img src="https://static.oxinis.com/healthmug/image/brand/2-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img src="https://static.oxinis.com/healthmug/image/brand/6-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/brand/1250-100.jpg"
+              alt="Image not found">Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/brand/11-100.jpg"
+              alt="Image not found">Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/brand/321-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+        <div class="top-brands-div">
+          <a href="/HTML/Brand.html">
+            <img
+              src="https://static.oxinis.com/healthmug/image/brand/17-100.jpg"
+              alt="Image not found">
+            Brand name
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Allopathy -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/213.png"
+            alt="Image not found">
+          <p id="description">Allopathy</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items justify-content-between">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/87220-1-150.webp"
+                alt="Image not found">
+              <p class="para">Candid Cream(50g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 130
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/115757-1-150.webp"
+                alt="Image not found">
+              <p class="para">Clear Gel(20g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 148
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/132517-2-150.webp"
+                alt="Image not found">
+              <p class="para">Skinlite cream(15g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 120
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/127856-1-150.webp"
+                alt="Image not found">
+              <p class="para">Salicylic Acid I.P (20g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 60
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/109501-1-150.webp"
+                alt="Image not found">
+              <p class="para">Derobin Ointment (30g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 93
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/97147-1-150.webp"
+                alt="Image not found">
+              <p class="para">Shelical Tablet(500mg)(15tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 113
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/112434-3-150.webp"
+                alt="Image not found">
+              <p class="para">Refresh Tears eye drop (10ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 122
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/117616-4-150.webp"
+                alt="Image not found">
+              <p class="para">Neurobion Forte Tablet(30tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 32
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/112434-3-150.webp"
+                alt="Image not found">
+              <p class="para">Refresh Tears eye drop (10ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 122
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/112434-3-150.webp"
+                alt="Image not found">
+              <p class="para">Refresh Tears eye drop (10ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 122
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Homeopathy -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/163.png"
+            alt="Image not found">
+          <p id="description">Homeopathy</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/411-2-150.webp"
+                alt="Image not found">
+              <p class="para">Dr Reckeweg R89(Lipocol)(30ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 285
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/1365-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Nux Vomica 30 CH (30ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 81
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/1365-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Thuja Occidentails 200CH (30ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 80
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/61158-1-150.webp"
+                alt="Image not found">
+              <p class="para">German Homeo Care and Cure No Piles Drops(30ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 144
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/873-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBl Calcarea Fluoricum 6X (25g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 86
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/873-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Kali Phosphorica 6X (25g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 90
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/524-4-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Clearstone Drops (30ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 130
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/2860-5-150.webp"
+                alt="Image not found">
+              <p class="para">
+                Willmar Schwabe Germany Cineraria Maritima Eye
+                Drps(without Alcohol)(10ml)
+              </p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 32
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/1126-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Arsenic Album 30CH (30ml)</p>
+              <p>
+                <i class="fa-solid fa-sterling-sign"></i> 77
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/112434-3-150.webp"
+                alt="Image not found">
+              <p class="para">Indo German Sinus Care Tablets</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 133
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ayurveda -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/9.png"
+            alt="Image not found">
+          <p id="description">Ayurveda</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/5317-2-150.webp"
+                alt="Image not found">
+              <p class="para">Dr. Loonawat Wartosin(3ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 80
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/6125-1-150.webp"
+                alt="Image not found">
+              <p class="para">Baidyanath Bhringrajasava (450ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 183
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/130156-2-150.webp"
+                alt="Image not found">
+              <p class="para">Unjha Bilwasav (450ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 165
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/3263-2-150.webp"
+                alt="Image not found">
+              <p class="para">Himaliya Ashwargandha Tablet (60tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 180
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/126295-4-150.webp"
+                alt="Image not found">
+              <p class="para">Care Us Otena Ear Drop (5ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 36
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/132288-1-150.webp"
+                alt="Image not found">
+              <p class="para">Health Up Weight Gainer Capsule (60cap)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 240
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/140397-1-150.webp"
+                alt="Image not found">
+              <p class="para">Willimar Schwabe India Dizester
+                Herbal
+                (450ml,pack of 2)
+              </p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 376
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/136230-1-150.webp"
+                alt="Image not found">
+              <p class="para">Baidyanth (Nagpur) Mahamanjisthadi Kadha (450ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 225
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/103791-1-150.webp"
+                alt="Image not found">
+              <p class="para">
+                Welonox Sleeping pills - Sleeping tablets or men
+                and women - NOn Habbit (30caps)
+              </p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 325
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/5876-2-150.webp"
+                alt="Image not found">
+              <p class="para">Baidyanath Purnachandra Ras (Ordinary) (40tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 143
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Unani -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/163.png"
+            alt="Image not found">
+          <p id="description">Unani</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41873-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Rogan Baiza Murgh (25ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 40
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41873-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Rogen Zarareeh</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 75
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/42498-2-150.webp"
+                alt="Image not found">
+              <p class="para">Rex Barshasha</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 400
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/70815-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Majun Arad Khurma</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 338
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41874-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Rogan Beer Bahuti (10ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 80
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41819-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Matosine Capsule (60caps)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 138
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41704-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Itrifal Ustukhuddus (150g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 60
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41866-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Rogan Kharateen</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 85
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41854-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Qurs Kushtra Qalai (60tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 70
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/41867-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hamdard Roghan Amla Sada</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 125
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nutrition and Suppliments -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/122.png"
+            alt="Image not found">
+          <p id="description">Nutrition and Suppliments</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/137209-1-150.webp"
+                alt="Image not found">
+              <p class="para">
+                Bigmuscles Nutrition Premium Gold Whey Protein
+                Isolate and Concentrate Belgium
+                Chocolate(1kg)
+              </p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 1599
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/135348-1-150.webp"
+                alt="Image not found">
+              <p class="para">FDC Ltd Electral Powder Unflavoured (21.8g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 20
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/152938-1-150.webp"
+                alt="Image not found">
+              <p class="para">Baidyanath Ayured Ashwargandha Tablets (60tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 139
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/65818-1-150.webp"
+                alt="Image not found">
+              <p class="para">Kaahan Ayurvedas Sehat King Powder (160g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 800
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/54952-1-150.webp"
+                alt="Image not found">
+              <p class="para">Bakson Vitamin D Plus Tablets (30tab)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 149
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/53677-1-150.webp"
+                alt="Image not found">
+              <p class="para">Sri Sri Tattva Karela Jamun Juice (1000ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 272
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/56346-1-150.webp"
+                alt="Image not found">
+              <p class="para">Axiom Karela Jamun Juice (1000ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 300
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/61463-1-150.webp"
+                alt="Image not found">
+              <p class="para">Preserva Wellness Platimore Juice (500ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 699
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/18987-2-150.webp"
+                alt="Image not found">
+              <p class="para">jiva Ayurveda Honey(500g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 210
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Beauty and personal care -->
+    <div class="bg-light m-4 Detail-categories">
+      <div class="d-flex Details-container">
+        <div class="Detail-main-div">
+          <img src="https://static.oxinis.com/healthmug/image/category/82.png"
+            alt="Image not found">
+          <p id="description">Beauty and personal care</p>
+          <a href="/HTML/Categories-sub-page.html">
+            <button class="btn btn-primary" id="viewBtn">View All</button>
+          </a>
+        </div>
+        <div class="d-flex Detail-div-items">
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/586-2-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Berberis Aquifolium Gel (25g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 50
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/120507-2-150.webp"
+                alt="Image not found">
+              <p class="para">Salve Pharma Benxop Face Wash (4%w/w) (50g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 205
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/5400-1-150.webp"
+                alt="Image not found">
+              <p class="para">Wheezal Jabordani Hair Treatment Oil (110ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 135
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/12384-1-150.webp"
+                alt="Image not found">
+              <p class="para">Hapdco Marks Go Cream (25g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 102
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/109537-2-150.webp"
+                alt="Image not found">
+              <p class="para">USV Erytop Gel (1%w/w)(20g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 161
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/2855-2-150.webp"
+                alt="Image not found">
+              <p class="para">
+                Willmar Schwabe India B&T Arnica Shamphoo
+                (250ml)
+              </p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 180
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/5318-2-150.webp"
+                alt="Image not found">
+              <p class="para">Ganpati Dawa Khana Cream (10g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 119
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/484-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Glowing Beauty Fairness Cream (50g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 88
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/477-1-150.webp"
+                alt="Image not found">
+              <p class="para">SBL Arnica Montona Hair Oil (200ml)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 132
+              </p>
+            </a>
+          </div>
+          <div class="items-sub-div m-5 mb-0">
+            <a href="/HTML/singleProductPage.html">
+              <img class="set"
+                src="https://static.oxinis.com/healthmug/image/product/74444-3-150.webp"
+                alt="Image not found">
+              <p class="para">Abbott Melalite 15 cream (30g)</p>
+              <p class="paraPrice">
+                <i class="fa-solid fa-sterling-sign"></i> 163
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light m-4 row rounded-4" id="service">
+      <div class="col-md-3 p-1" id="service-div">
+        <img src="https://static.oxinis.com/healthmug/image/asset/15-ad.png"
+          alt="Image not found">
+      </div>
+      <div class="col-md-3 p-1" id="service-div">
+        <img src="https://static.oxinis.com/healthmug/image/asset/16-ad.png"
+          alt="Image not found">
+      </div>
+      <div class="col-md-3 p-1" id="service-div">
+        <img src="https://static.oxinis.com/healthmug/image/asset/22-eb.png"
+          alt="Image not found">
+      </div>
+    </div>
+
+    <!-- Consultation -->
+    <div class="bg-light m-4 row p-2 rounded-4" id="consultation">
+      <h4>START CONSULTATION</h4>
+      <hr>
+      <div class="row mt-2 pb-3">
+        <div class="col-md-3">
+          <div class="d-flex" id="consult-info">
+            <div id="consult-info-div1">
+              <img
+                src="https://static.oxinis.com/healthmug/image/consultation/homeopathy-icon.jpg"
+                alt="Image not found">
+            </div>
+            <div id="consult-info-div2">
+              <h5 class="mt-3">Homeopathy</h5>
+              <p>Free Homeopathy Consultation Online</p>
+              <button type="button" class="btn btn-outline-success">
+                Ask our
+                expert
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex" id="consult-info">
+            <div id="consult-info-div1">
+              <img
+                src="https://static.oxinis.com/healthmug/image/consultation/unani-icon.jpg"
+                alt="Image not found">
+            </div>
+            <div id="consult-info-div2">
+              <h5 class="mt-3">Unani</h5>
+              <p>Free Unani Consultation Online</p>
+              <button type="button" class="btn btn-outline-success">
+                Ask our
+                expert
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex" id="consult-info">
+            <div id="consult-info-div1">
+              <img
+                src="https://static.oxinis.com/healthmug/image/consultation/ayurveda-icon.jpg"
+                alt="Image not found">
+            </div>
+            <div id="consult-info-div2">
+              <h5 class="mt-3">Ayurveda</h5>
+              <p>Free Ayurveda Consultation Online</p>
+              <button type="button" class="btn btn-outline-success">
+                Ask our
+                expert
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex" id="consult-info">
+            <div id="consult-info-div1">
+              <img
+                src="https://static.oxinis.com/healthmug/image/consultation/diet-nutrition-icon.jpg"
+                alt="Image not found">
+            </div>
+            <div id="consult-info-div2">
+              <h5 class="mt-3">Diet/Nutrition</h5>
+              <p>Free Diet and Nutrition Counselling</p>
+              <button type="button" class="btn btn-outline-success">
+                Ask our
+                expert Consult
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blogs -->
+    <div class="container-fluid bg-light m-4 p-2 text-center rounded-4"
+      id="blog">
+      <h4>Blogs</h4>
+      <div class="row" id="blog-grid">
+        <div class="col-md-4" id="main-div">
+          <img
+            src="https://static.oxinis.com/healthmug/image/blog/article/205-banner-400.jpg"
+            alt="Image not found">
+          <h4>
+            Mirror, Mirror On The Wall- If They Laugh Then Screw Them
+            ALL!!!!
+          </h4>
+          <p>
+            A Fresh, Organic apple or the witch poisoned apple that Snow
+            White had for a snack? Which would you prefer?
+            Obviously, the fresh one right? So, why doesn't the same happens
+            when it comes to your health! Didn't catch
+            up? Read on to find out.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://static.oxinis.com/healthmug/image/blog/article/202-banner-400.jpg"
+            alt="Image not found">
+          <p>
+            Korean Beauty Regimen 101 - Everything you need to know about
+            Korean Skincare
+          </p>
+          <img
+            src="https://static.oxinis.com/healthmug/image/blog/article/4-banner-400.jpg"
+            alt="Image not found">
+          <p>7 Herbal Teas & Benefits That Will Blow Your Mind</p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://static.oxinis.com/healthmug/image/blog/article/3-banner-700.jpg"
+            alt="Image not found">
+          <p>Fruit & Vegetable Juices You Need To Know About</p>
+          <img
+            src="https://static.oxinis.com/healthmug/image/blog/article/2-banner-700.jpg"
+            alt="Image not found">
+          <p>6 Essential Oils You Need To Keep At Home</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-light">
+      <div class="container-fluid row pt-3">
+        <div class="col-md-3 text-center">
+          <i class="fa-solid fa-shield p-3" id="footer-icon"></i>
+          <h5>100% Secure</h5>
+          <p>100% Payments Protection</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="fa-solid fa-cash-register p-3" id="footer-icon"></i>
+          <h5>Cash on Delivery</h5>
+          <p>Get First Pay Later</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="fa-solid fa-reply p-3" id="footer-icon"></i>
+          <h5>EASY RETURN</h5>
+          <p>Easy Return & Refund</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="fa-solid fa-phone p-3" id="footer-icon"></i>
+          <h5>100% Secure</h5>
+          <p>Call: 7838389846 Or Read
+            <a id="FAQ" href="#">FAQs</a>
+          </p>
+        </div>
+      </div>
+      <div id="footer-section">
+        <div class="container-fluid row pt-3">
+          <div class="col-md-2">
+            <ul>
+              <li>
+                <h6>Policies</h6>
+              </li>
+              <li style="list-style: none;">
+                <a href="/HTML/privacyPolicy.html">Privacy Policy</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="/HTML/termOfUse.html">Terms of use</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="/HTML/ReturnsandCancellations.html">Returns
+                  and Cancellations</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>
+                <h6>HealthMug</h6>
+              </li>
+              <li style="list-style: none;">
+                <a href="/HTML/contactUs.html">Contact us</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="/HTML/About.html">About</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="#blog">Blogs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>
+                <h6>May we help you</h6>
+              </li>
+              <li style="list-style: none;">
+                <a href="#">Track your order</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="#">Change/cancel order</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="#">Report Abuse / Infringement</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>
+                <h6>Stay Connected</h6>
+              </li>
+              <li style="list-style: none;">
+                <a href="#">Facebook</a>
+              </li>
+              <li style="list-style: none;">
+                <a href="#">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>
+                <h6>Payment Methods</h6>
+              </li>
+              <li style="list-style: none;">
+                <i class="fa-solid fa-credit-card"></i>
+                Credit/Debit cards
+              </li>
+              <li style="list-style: none;">
+                <i class="fa-solid fa-building-columns"></i>
+                Net banking
+              </li>
+              <li style="list-style: none;">
+                <i class="fa-solid fa-money-bill"></i>
+                Cash on delivery
+              </li>
+              <li style="list-style: none;">
+                <i class="fa-solid fa-wallet"></i>
+                E-wallet
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h6>Download App</h6>
+            <div class="flex social-btns">
+              <a class="app-btn blu flex vert m-2 p-1" href="http:google.com">
+                <i class="fab fa-google-play"></i>
+                <p>Get it on
+                  <br>
+                  <span class="big-txt">Google Play</span>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid row">
+          <div class="col-md-3 m-auto">
+            <div class="d-flex">
+              <div>
+                <i class="fa-solid fa-shield p-3" id="footer-icon"></i>
+              </div>
+              <div>
+                <h6>
+                  100% Secured & Trusted
+                </h6>
+                <p>
+                  Secure payments by Razorpay
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/JS/Ecommerence.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>

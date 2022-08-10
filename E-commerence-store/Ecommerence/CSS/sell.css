@@ -1,0 +1,23 @@
+#main-section {
+  width: 70%;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.text-heading {
+  font-size: 16px;
+}
+
+.text-label {
+  font-size: 14px;
+}
+
+.sell-heading {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(80, 80, 80);
+}

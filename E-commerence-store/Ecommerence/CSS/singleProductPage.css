@@ -1,0 +1,49 @@
+.fb-btn {
+  border-radius: 50%;
+  padding: 0%;
+  border: none;
+}
+
+.grid-col-3 p {
+  font-size: 12px;
+}
+
+.description1 {
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description-details {
+  font-size: 14px;
+  margin: 0%;
+  line-height: 2;
+}
+
+.para1 {
+  width: 40%;
+  height: 25px;
+  text-align: center;
+}
+
+.rating
+{
+  margin: 0%;
+}
+
+.noOfReviews{
+  margin: 0%;
+  font-size: 14px;
+}
+
+.btn1
+{
+  border: none !important;
+  color: rgb(10, 88, 190) !important;
+}
+
+.height-of-div
+{
+  height: 200px;
+  overflow: auto;
+}

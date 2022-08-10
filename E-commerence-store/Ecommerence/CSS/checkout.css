@@ -1,0 +1,10 @@
+.text-size
+{
+  font-size: 12px;
+  color: white;
+}
+
+.checkoutInput:disabled{
+  cursor: not-allowed;
+  background-color: #e7ecee;
+}
